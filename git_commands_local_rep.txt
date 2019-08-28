@@ -1,0 +1,84 @@
+Step:-1 Create the working directory by giving the command
+
+	mkdir folder_name
+
+Step:-2 Enter in the working directory, type the command
+
+	cd folder_name 
+
+Step:-3 Initialize the git in the directory, type the command
+	
+	git init
+
+Step:-4 After initializing the git, created or modified can be added to local repo of git by typing the command
+
+	git add file_name (or) git add -A .
+
+Step:-5 we check the status of files whether is it in untrack or track stage,
+
+	git status
+	
+	i)  If the file is in untrack stage, then we can type the step-4 command to enter in stageing area [Track stage]
+	ii) if the file is in track stage, then files are going to commit in the local repo
+
+Step:-6 Commit to local repo, type the command
+
+	git commit -m "Message name to commit"
+
+Step:-7 To check the logs of the commit in the form of decorate way, then type the command
+
+	git log --oneline --decorate --graph --all
+
+Step:-8 To see the full log details, type
+
+	git log
+
+Step:-9 To see the particular commit, then type
+
+	git show commit_id
+
+Step:-10 To create the branch, then type
+
+	git branch branch_name (or) git checkout -b branch_name [This will create branxh and checkout as branch name]
+
+Step:-11 To checkout as branch or master, then type 
+
+	git checkout [branch_name or  master]
+
+Step:-12 To create the tag for the commits, then type
+
+	git tag --a tag_name commit_id --m "message of tag version"
+
+Step:-13 To see the tags then type
+
+	git tag
+
+Step:-14 To merge branch with master, then type 
+
+	git checkout master
+	git merge branch_name
+
+Step:-15 To see how many branchs are created, then type
+
+	git branch
+
+Step:-16 To see the difference between two commit of same files then, type 
+
+	git diff commit_id_1 commit_id_2
+
+Step:-17 If we want to undo the files after the commit then, type
+
+	git checkout commit_id [it will create branch of commit_id then undo it]
+	
+	other way to undo is,
+
+	git revert commit_id
+
+Step:-18 To delete the files in the staging and local repo, then type
+
+	git reset commit_id [After typing this command, whatever track files are there, it becomes untracked]
+
+Step:-19 T delete from working, staging and local repo then. type
+
+	git  reset --hard commit_id
+
