@@ -3,4 +3,4 @@ git_commands_for_local_repo
 
 Install the git software, type
 
-sudo apt-get install git
+step:-1 sudo apt-get install git
