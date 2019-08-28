@@ -97,3 +97,6 @@ Step:-3 To push the code from local master to remote repo, type
 
 	git push origin url_git_repo 
 
+Step:-4 To push the tags, then type
+
+	git push origin --tags
