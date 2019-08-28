@@ -78,7 +78,22 @@ Step:-18 To delete the files in the staging and local repo, then type
 
 	git reset commit_id [After typing this command, whatever track files are there, it becomes untracked]
 
-Step:-19 T delete from working, staging and local repo then. type
+Step:-19 To delete from working, staging and local repo then. type
 
 	git  reset --hard commit_id
+
+
+======== WORKING ON REMOTE DIRECTORY ==========
+
+Step:-1 To  clone from the git, type
+
+	git clone url_name_of_git
+
+Step:-2 To check with remote repo, type
+
+	git remote -v
+
+Step:-3 To push the code from local master to remote repo, type
+
+	git push origin url_git_repo 
 
