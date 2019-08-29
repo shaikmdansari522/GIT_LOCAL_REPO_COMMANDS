@@ -112,3 +112,10 @@ Step:-1 Stashing is used to save the work in reference without commiting, type c
 	git stash list [to see the stash list]	
 	
 	git stash apply stash_id
+	
+	git stash drop stash_id [delete the stash is which saved]
+
+	git stash pop [delete new updated stash id and apply]
+
+
+	
