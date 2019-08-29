@@ -100,3 +100,14 @@ Step:-3 To push the code from local master to remote repo, type
 Step:-4 To push the tags, then type
 
 	git push origin --tags
+
+=========== Stashing ======================
+
+Step:-1 Stashing is used to save the work in reference without commiting, type command
+
+	git add file_name [or] git add -A .
+
+	git stash save "Message name "
+
+	
+	
