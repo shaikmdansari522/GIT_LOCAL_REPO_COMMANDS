@@ -111,3 +111,4 @@ Step:-1 Stashing is used to save the work in reference without commiting, type c
 
 	git stash list [to see the stash list]	
 	
+	git stash apply stash_id
