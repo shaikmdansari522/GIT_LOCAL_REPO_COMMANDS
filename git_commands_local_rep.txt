@@ -119,3 +119,8 @@ Step:-1 Stashing is used to save the work in reference without commiting, type c
 
 
 	
+=========== Rebasing (Oftenly used) ==============
+
+Steps:- Rebasing is ofenly used. Change made in one branch needs to be reflected in another branch.
+
+	git rebase master
